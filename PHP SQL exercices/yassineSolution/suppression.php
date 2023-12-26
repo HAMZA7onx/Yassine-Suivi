@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $idASupprimer = $_POST["id_a_supprimer"];
 
     // Requête de suppression
-    $requete = "DELETE FROM ma_table WHERE id=$idASupprimer";
+    $requete = "DELETE FROM exerce_table WHERE id=$idASupprimer";
 
     if ($connexion->query($requete) === TRUE) {
         echo "Enregistrement supprimé avec succès !";
