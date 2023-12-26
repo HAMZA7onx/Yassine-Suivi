@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!-- Liste des enregistrements avec bouton de suppression -->
 <?php
-$resultat = $connexion->query("SELECT * FROM ma_table");
+$resultat = $connexion->query("SELECT * FROM exerce_table");
 
 if ($resultat->num_rows > 0) {
     while ($ligne = $resultat->fetch_assoc()) {
