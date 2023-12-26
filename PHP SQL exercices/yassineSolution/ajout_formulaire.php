@@ -11,7 +11,7 @@
     <form method="post" action="ajout_traitement.php">
         Nom: <input type="text" name="nom"><br>
         Email: <input type="text" name="email"><br>
-        <input  type="submit" value="Ajouter">
+        <input src="affichage_donnees.php" type="submit" value="Ajouter">
     </form>
 </body>
 </html>

@@ -3,14 +3,14 @@
 include("connexion.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nom = $_POST["nom"];
-    $email = $_POST["email"];
+    $id = $_POST["id"];
+    $nouveauNom = $_POST["nouveau_nom"];
 
-    // Requête d'insertion
-    $requete = "INSERT INTO exerce_table (nom, email) VALUES ('$nom', '$email')";
+    // Requête de mise à jour
+    $requete = "UPDATE exerce_table  SET nom='$nouveauNom' WHERE id=$id";
 
     if ($connexion->query($requete) === TRUE) {
-        echo "";
+        echo "Enregistrement mis à jour avec succès !";
     } else {
         echo "Erreur : " . $requete . "<br>" . $connexion->error;
     }
