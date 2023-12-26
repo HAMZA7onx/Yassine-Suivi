@@ -1,0 +1,24 @@
+
+
+Exercice 1 : Connexion à la base de données
+Créez un fichier PHP qui se connecte à une base de données MySQL. Utilisez les variables pour stocker les informations de connexion (nom d'utilisateur, mot de passe, nom de la base de données) et la fonction mysqli_connect pour établir la connexion.
+
+Exercice 2 : Insertion de données
+
+Après la connexion, créez un formulaire HTML qui permet à l'utilisateur d'ajouter des données à une table de la base de données. Lorsque le formulaire est soumis, récupérez les données en utilisant la méthode POST et insérez-les dans la base de données.
+
+Exercice 3 : Sélection de données
+
+Créez une page PHP qui récupère toutes les données d'une table de la base de données et les affiche dans un tableau HTML. Utilisez la requête SQL SELECT pour récupérer les données.
+
+Exercice 4 : Mise à jour de données
+
+Permettez à l'utilisateur de mettre à jour des données existantes dans la base de données. Affichez les données dans un formulaire pré-rempli et permettez à l'utilisateur de les modifier. Enregistrez les modifications dans la base de données.
+
+Exercice 5 : Suppression de données
+
+Ajoutez la possibilité de supprimer des données de la base de données. Affichez les données dans une liste avec un bouton de suppression à côté de chaque élément. Lorsque le bouton est cliqué, supprimez l'élément de la base de données.
+
+Exercice 6 : Gestion des erreurs
+
+Améliorez vos scripts en ajoutant une gestion des erreurs appropriée. Par exemple, vérifiez si la connexion à la base de données est réussie et affichez un message d'erreur si ce n'est pas le cas. De même, affichez des messages d'erreur en cas d'échec de l'insertion, de la mise à jour ou de la suppression de données.
