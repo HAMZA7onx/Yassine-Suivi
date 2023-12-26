@@ -1,0 +1,15 @@
+Un micro projet (TODO List):
+
+Tables:
+
+- users
+
+- tasks
+
+- tasks_users
+
+Interface:
+
+- Index - une liste des tasks avec le nom ou les noms de qui s'est assigné.
+
+- Task form - le titre, la description, un multi-select pour sélectionner plusieurs utilisateur à qui assigner la tache.
