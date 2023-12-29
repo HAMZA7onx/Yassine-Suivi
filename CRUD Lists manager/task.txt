@@ -1,0 +1,34 @@
+
+
+**Objective:**
+Create a simple PHP application for managing a list of users with basic CRUD operations (Create, Read, Update, Delete).
+
+**Steps:**
+
+1. **Database:**
+   - Create a text file named `users.txt` to act as the database.
+   - Each line in the file should represent a user with the format: `ID|Name|Email`.
+
+2. **Main PHP File (index.php):**
+   - Display a heading "User Management" in an HTML document.
+   - Implement functions to read users from the file (`readUsers`) and display users (`displayUsers`).
+
+3. **List Users (Read):**
+   - When the page loads, list all users from the `users.txt` file.
+   - Display each user's name and email.
+   - Include links to edit and delete each user.
+
+4. **Edit User (Update):**
+   - When the "Edit" link is clicked, handle the logic to display and process an edit form.
+   - The form should allow editing the user's name and email.
+   - Save the updated information to the `users.txt` file.
+
+5. **Create User (Create):**
+   - Include a link or button to create a new user.
+   - Implement logic to display and process a form for creating a new user.
+   - Save the new user to the `users.txt` file.
+
+6. **Delete User (Delete):**
+   - When the "Delete" link is clicked, handle the logic to delete the selected user.
+   - Update the `users.txt` file accordingly.
+
